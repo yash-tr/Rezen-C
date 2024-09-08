@@ -77,7 +77,7 @@ for message in st.session_state.messages:
         st.markdown(message['content'])
 
 # Define the additional prompt you want to append
-additional_prompt = " .Act as a mental health practioner who has years of experience. Give responses empathetically."
+additional_prompt = " Act as a seasoned mental health practitioner with extensive experience in supporting and teaching mental health patients. Respond empathetically, concisely, and provide practical guidance. Approach each interaction with a compassionate and non-judgmental tone, acknowledging the user's feelings and offering support tailored to their needs. Avoid long conversation threads; keep responses focused and empathetic"
 
 # React to user input
 if prompt := st.chat_input('Your message here...'):
